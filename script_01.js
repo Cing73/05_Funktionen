@@ -26,7 +26,7 @@ function ausgabeNamen() {
 /***** Funktionen 02a *****/
 // 2a. Parametrisierung + Datenübergabe von INNEN
 
-ausgabeNamenParam("Anna");
+ausgabeNamenParam("Anna"); // Argument
 ausgabeNamenParam("Craig");
 ausgabeNamenParam("Fatih");
 
