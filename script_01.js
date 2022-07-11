@@ -16,11 +16,21 @@ function test()
 /***** Funktionen 02a *****/
 // 2a. Parametrisierung + Datenübergabe von INNEN
 
-ausgabeNamen()
+// ausgabeNamen()
 
 function ausgabeNamen() {
     let firstName = "Anna";
     console.log("Hallo " + firstName + "!");
 }
 
-console.log(firstName);
+/***** Funktionen 02a *****/
+// 2a. Parametrisierung + Datenübergabe von INNEN
+
+ausgabeNamenParam("Anna");
+ausgabeNamenParam("Craig");
+ausgabeNamenParam("Fatih");
+
+function ausgabeNamenParam(firstName) { // Parameter
+    
+    console.log("Hallo " + firstName + "!");
+}
